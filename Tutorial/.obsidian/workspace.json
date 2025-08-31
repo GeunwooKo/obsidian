@@ -11,14 +11,17 @@
             "id": "2ee19e384bd8914c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "aa.md",
-                "mode": "source",
-                "source": false
+                "file": "SiC Planar MOSFET.canvas",
+                "viewState": {
+                  "x": -2340,
+                  "y": 844.5,
+                  "zoom": -1.604753928567678
+                }
               },
-              "icon": "lucide-file",
-              "title": "aa"
+              "icon": "lucide-layout-dashboard",
+              "title": "SiC Planar MOSFET"
             }
           }
         ]
@@ -182,7 +185,7 @@
   },
   "active": "2ee19e384bd8914c",
   "lastOpenFiles": [
-    "SiC Planar MOSFET.canvas",
-    "aa.md"
+    "aa.md",
+    "SiC Planar MOSFET.canvas"
   ]
 }
