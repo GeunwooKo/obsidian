@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e5708a9ac9bdb45",
+        "id": "84cb48ae60688e9b",
         "type": "tabs",
         "children": [
           {
-            "id": "2ee19e384bd8914c",
+            "id": "820d172a3fe2147c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SiC Planar MOSFET.canvas",
-                "viewState": {
-                  "x": -2340,
-                  "y": 844.5,
-                  "zoom": -1.604753928567678
-                }
+                "file": "Process/6.0 NPLUS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SiC Planar MOSFET"
+              "icon": "lucide-file",
+              "title": "6.0 NPLUS"
             }
           }
         ]
@@ -169,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 390
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,12 +177,15 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "2ee19e384bd8914c",
+  "active": "820d172a3fe2147c",
   "lastOpenFiles": [
-    "aa.md",
-    "SiC Planar MOSFET.canvas"
+    "Process/3.0 JFET.md",
+    "SiC Planar MOSFET.canvas",
+    "Process/17.0 SCONT.md",
+    "aa.md"
   ]
 }
