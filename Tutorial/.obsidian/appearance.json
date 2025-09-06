@@ -1,3 +1,8 @@
 {
-  "cssTheme": "AnuPpuccin"
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "custom-rainbow-colors",
+    "extended-colorschemes"
+  ]
 }
