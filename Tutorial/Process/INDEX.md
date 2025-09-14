@@ -274,7 +274,7 @@ graph TD
 ---
 
 ## 🏷️ 태그 모음
-#SiC #PowerMOSFET #반도체공정 #이온주입 #고온어닐링 #게이트산화막 #금속화 #패시베이션 #백그라인딩 #공정엔지니어링 #품질관리 #수율향상 #신뢰성 #열관리 #전력반도체
+#SiC #PowerMOSFET #semiconductor #IonImplantation #HighTemperature  #GateOxide  #Metalization #Passivation #BackGrinding #processEnginiering #QualityControl  #YieldEnhancement #Reliability  #ThermalManagement #PowerDevice 
 
 ---
 
