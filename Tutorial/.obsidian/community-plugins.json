@@ -2,5 +2,8 @@
   "obsidian-git",
   "obsidian-style-settings",
   "templater-obsidian",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "calendar",
+  "obsidian-kanban",
+  "smart-composer"
 ]
