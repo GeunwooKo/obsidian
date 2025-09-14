@@ -1,7 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Etchback dry etch mechanisms
-
 The etchback dry etch process in semiconductor manufacturing employs plasma-based techniques to selectively remove excess tungsten from the wafer surface (field), especially after via or contact gapfill. The underlying mechanisms of dry etchback can be summarized as follows:
 
 ## Main Etchback Dry Etch Mechanisms

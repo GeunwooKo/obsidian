@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Chemical vs physical etchback balance
 
 Balancing chemical and physical mechanisms during etchback dry etching is crucial for **precise control**, profile shaping, and selectivity in semiconductor manufacturing.
 

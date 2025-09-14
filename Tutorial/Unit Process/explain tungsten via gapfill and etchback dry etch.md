@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# explain tungsten via gapfill and etchback dry etch process
 
 The tungsten via gapfill and etchback dry etch process are crucial steps in forming reliable interconnections in semiconductor manufacturing, especially as device geometries shrink and aspect ratios grow.
 

@@ -1,5 +1,3 @@
-# Aluminum Cl Dry Etch 후 ACT-945 세정
-
 ## 개요
 - **제품**: Versum ACT-945 (Post-etch cleaning solution)
 - **용도**: 알루미늄 염소 건식 식각 후 부식 방지 및 잔류물 제거

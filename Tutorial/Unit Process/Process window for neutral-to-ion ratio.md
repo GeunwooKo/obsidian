@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Process window for neutral-to-ion ratio
 
 The process window for the neutral-to-ion ratio in dry etch processes is a critical parameter for profile control, selectivity, and aspect ratio-dependent etching (ARDE). The balance and window are governed by both plasma conditions and feature geometry:
 

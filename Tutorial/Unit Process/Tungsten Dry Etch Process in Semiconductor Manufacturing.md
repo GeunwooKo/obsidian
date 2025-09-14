@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Tungsten Dry Etch Process in Semiconductor Manufacturing
 
 The tungsten dry etch process is a critical component in modern semiconductor manufacturing, particularly for creating precise patterns in tungsten layers used for gate electrodes, interconnects, and contacts. This plasma-based etching technique offers superior control compared to wet chemical methods and is essential for advanced node fabrication.
 
