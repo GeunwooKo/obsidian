@@ -50,3 +50,385 @@ Bias power는 이온의 가속 에너지를 제어하여 식각의 방향성을 
 Dry etch 공정 최적화는 식각 속도, 선택비, 프로파일, 균일도, 그리고 damage 최소화 사이의 균형을 찾는 과정입니다. 각 파라미터는 서로 연관되어 있어, 하나의 변경이 전체 공정에 영향을 미칩니다. 예를 들어, 식각 속도를 높이기 위해 power를 증가시키면 선택비가 저하되고 substrate damage가 증가할 수 있습니다.
 
 최신 반도체 공정에서는 HAR(High Aspect Ratio) 구조와 3D 구조의 식각이 증가하면서, 더욱 정밀한 파라미터 제어와 새로운 가스 조합의 개발이 요구되고 있습니다. 특히 ALE(Atomic Layer Etching)와 같은 원자 단위 제어 기술이 차세대 공정의 핵심으로 부상하고 있습니다.
+
+## 물질별 Dry Etch 가스 및 조건
+
+### 1. Silicon Dioxide (SiO2) Etch
+
+#### 주요 에치 가스
+**CF4 기반 화학**
+```
+주 반응: SiO2 + 4CF4 → SiF4 + 2COF2 + 2CF2
+          SiO2 + 4F → SiF4 + O2
+```
+
+**가스 조합 및 비율**
+- **CF4/O2**: CF4 (80-200 sccm) + O2 (5-20 sccm)
+- **CHF3/CF4**: CHF3 (50-150 sccm) + CF4 (20-80 sccm)
+- **C4F8/O2**: C4F8 (20-60 sccm) + O2 (10-30 sccm)
+- **C4F8/Ar**: C4F8 (40-80 sccm) + Ar (100-300 sccm)
+
+#### 공정 조건
+```
+압력 (Pressure): 5-50 mTorr
+Source Power: 800-2000W
+Bias Power: 100-500W
+온도 (Temperature): 0-40°C
+He Backside Pressure: 10-20 Torr
+```
+
+#### 선택비 및 특성
+- **SiO2/Si 선택비**: 5:1 ~ 15:1
+- **SiO2/SiN 선택비**: 3:1 ~ 8:1
+- **SiO2/Photoresist 선택비**: 1:1 ~ 3:1
+- **식각 속도**: 1000-3000 Å/min
+
+#### 응용 분야
+- STI (Shallow Trench Isolation) 식각
+- Contact/Via hole 식각
+- ILD (Inter Layer Dielectric) 패터닝
+- TEOS, PSG, BSG 식각
+
+### 2. Silicon Nitride (SiN/Si3N4) Etch
+
+#### 주요 에치 가스
+**불소계 + 탄소계 조합**
+```
+주 반응: Si3N4 + 12F → 3SiF4 + 2N2
+          Si3N4 + 12CF4 → 3SiF4 + 2N2 + 12CF2
+```
+
+**가스 조합 및 비율**
+- **CF4/O2**: CF4 (100-250 sccm) + O2 (10-40 sccm)
+- **CHF3/O2**: CHF3 (80-200 sccm) + O2 (15-50 sccm)
+- **C4F8/CH4**: C4F8 (30-80 sccm) + CH4 (10-40 sccm)
+- **SF6/O2**: SF6 (50-150 sccm) + O2 (5-25 sccm)
+
+#### 공정 조건
+```
+압력 (Pressure): 10-80 mTorr
+Source Power: 1000-2500W
+Bias Power: 150-600W
+온도 (Temperature): 20-60°C
+He Backside Pressure: 8-15 Torr
+```
+
+#### 선택비 및 특성
+- **SiN/SiO2 선택비**: 8:1 ~ 20:1
+- **SiN/Si 선택비**: 10:1 ~ 25:1
+- **SiN/Photoresist 선택비**: 0.8:1 ~ 2:1
+- **식각 속도**: 800-2500 Å/min
+
+#### 응용 분야
+- Spacer 형성을 위한 SiN 식각
+- Hard mask SiN 제거
+- LPCVD/PECVD SiN 패터닝
+- Passivation layer 식각
+
+### 3. Aluminum (Al) Etch
+
+#### 주요 에치 가스
+**염소계 가스 조합**
+```
+주 반응: Al + 3Cl → AlCl3
+          2Al + 3Cl2 → 2AlCl3
+```
+
+**가스 조합 및 비율**
+- **Cl2/BCl3**: Cl2 (80-200 sccm) + BCl3 (20-80 sccm)
+- **Cl2/BCl3/CHCl3**: Cl2 (100-180 sccm) + BCl3 (30-60 sccm) + CHCl3 (5-20 sccm)
+- **BCl3/Cl2/Ar**: BCl3 (60-120 sccm) + Cl2 (40-100 sccm) + Ar (50-150 sccm)
+- **Cl2/N2**: Cl2 (120-250 sccm) + N2 (10-50 sccm)
+
+#### 공정 조건
+```
+압력 (Pressure): 2-20 mTorr
+Source Power: 500-1500W
+Bias Power: 80-300W
+온도 (Temperature): 40-80°C
+He Backside Pressure: 15-25 Torr
+```
+
+#### 선택비 및 특성
+- **Al/SiO2 선택비**: 15:1 ~ 50:1
+- **Al/Photoresist 선택비**: 2:1 ~ 5:1
+- **Al/TiN 선택비**: 8:1 ~ 20:1
+- **식각 속도**: 3000-8000 Å/min
+
+#### 특별 고려사항
+- **자연 산화막**: Al2O3 제거를 위한 breakthrough step 필요
+- **Corrosion 방지**: 낮은 습도 (<1% RH) 유지 필수
+- **재증착 방지**: 충분한 ion bombardment와 Ar 첨가
+
+#### 응용 분야
+- Metal 1, 2, 3 interconnect 식각
+- Al pad 식각
+- Al/Cu alloy 식각
+- Bondpad opening
+
+### 4. Tungsten (W) Etch
+
+#### 주요 에치 가스
+**불소계 가스 조합**
+```
+주 반응: W + 6F → WF6
+          W + 3F2 → WF6
+```
+
+**가스 조합 및 비율**
+- **SF6/O2**: SF6 (100-300 sccm) + O2 (10-50 sccm)
+- **CF4/O2**: CF4 (150-400 sccm) + O2 (20-80 sccm)
+- **NF3/Ar**: NF3 (50-150 sccm) + Ar (100-250 sccm)
+- **SF6/Cl2**: SF6 (80-200 sccm) + Cl2 (20-60 sccm)
+
+#### 공정 조건
+```
+압력 (Pressure): 5-50 mTorr
+Source Power: 800-2000W
+Bias Power: 100-400W
+온도 (Temperature): 20-60°C
+He Backside Pressure: 10-20 Torr
+```
+
+#### 선택비 및 특성
+- **W/SiO2 선택비**: 20:1 ~ 80:1
+- **W/SiN 선택비**: 15:1 ~ 40:1
+- **W/Ti 선택비**: 5:1 ~ 15:1
+- **W/TiN 선택비**: 8:1 ~ 25:1
+- **식각 속도**: 2000-6000 Å/min
+
+#### 공정 유형
+**1. W Plug Etchback**
+```
+목적: Via/Contact 내 W 잉여분 제거
+가스: SF6/O2 (높은 선택비)
+조건: 낮은 bias power, 높은 선택비 중심
+```
+
+**2. W Via/Contact Fill**
+```
+목적: Via 충진을 위한 W 선택적 증착
+전처리: TiN barrier 위 W 증착
+후처리: CMP 또는 Etchback
+```
+
+#### 응용 분야
+- Via/Contact plug 형성
+- Local interconnect
+- Gate electrode (W gate)
+- X-ray mask 식각
+
+### 5. Titanium Nitride (TiN) Etch
+
+#### 주요 에치 가스
+**염소계 + 불소계 조합**
+```
+주 반응: TiN + 4Cl → TiCl4 + 1/2N2
+          TiN + 3F2 → TiF4 + 1/2N2 + F2
+```
+
+**가스 조합 및 비율**
+- **Cl2/BCl3/Ar**: Cl2 (60-150 sccm) + BCl3 (30-80 sccm) + Ar (50-200 sccm)
+- **SF6/Cl2**: SF6 (80-200 sccm) + Cl2 (40-100 sccm)
+- **CF4/Cl2/O2**: CF4 (100-250 sccm) + Cl2 (30-80 sccm) + O2 (10-30 sccm)
+- **BCl3/Ar**: BCl3 (100-200 sccm) + Ar (100-300 sccm)
+
+#### 공정 조건
+```
+압력 (Pressure): 3-30 mTorr
+Source Power: 600-1800W
+Bias Power: 100-500W
+온도 (Temperature): 40-80°C
+He Backside Pressure: 12-25 Torr
+```
+
+#### 선택비 및 특성
+- **TiN/SiO2 선택비**: 10:1 ~ 30:1
+- **TiN/Si 선택비**: 8:1 ~ 20:1
+- **TiN/W 선택비**: 15:1 ~ 40:1
+- **TiN/Photoresist 선택비**: 1:1 ~ 3:1
+- **식각 속도**: 1500-4000 Å/min
+
+#### 특별 고려사항
+- **산화 방지**: 낮은 O2 농도 유지
+- **Sidewall passivation**: 적절한 polymerization 제어
+- **Microloading 효과**: Via 크기에 따른 식각 속도 변화
+
+#### 응용 분야
+- Barrier layer 패터닝
+- Hard mask 제거
+- Gate electrode TiN 식각
+- Capacitor electrode 형성
+
+## 공정별 최적화 전략
+
+### 1. Contact/Via Etch 최적화
+```
+Breakthrough → Main Etch → Over Etch → Soft Landing
+```
+
+**Breakthrough Step**
+- 목적: 자연 산화막 및 residue 제거
+- 가스: 높은 F/C 비율 (CF4/O2)
+- 시간: 5-15초
+
+**Main Etch Step**
+- 목적: 빠른 식각 속도로 bulk 제거
+- 가스: 중간 F/C 비율 (CHF3/CF4)
+- 제어: 높은 이온 에너지
+
+**Over Etch Step**
+- 목적: 완전한 개구부 형성
+- 가스: 낮은 F/C 비율 (C4F8/O2)
+- 특징: 높은 선택비
+
+### 2. Metal Line Etch 최적화
+```
+Main Etch → Residue Clean → Passivation
+```
+
+**Main Etch**
+- 고속 식각으로 bulk 제거
+- 수직 프로파일 확보
+
+**Residue Clean**
+- Redeposition 물질 제거
+- 산화물 잔여물 제거
+
+### 3. HAR (High Aspect Ratio) Etch
+```
+특별 고려사항:
+- RIE lag 최소화
+- ARDE (Aspect Ratio Dependent Etching) 제어
+- Sidewall bowing 방지
+- Bottom residue 제거
+```
+
+#### HAR 최적화 기법
+- **Pulsed Plasma**: On/Off cycle로 ion flux 제어
+- **Multi-step Process**: 단계별 조건 변경
+- **Temperature Control**: Sidewall passivation 최적화
+
+## 공정 모니터링 및 제어
+
+### 1. End Point Detection (EPD)
+**Optical Emission Spectroscopy (OES)**
+- SiO2 etch: CO (483nm), SiF (440nm)
+- Si etch: SiF (440nm), SiCl (287nm)
+- Al etch: AlCl (261nm, 308nm)
+- W etch: WF (429nm)
+- TiN etch: TiCl (519nm)
+
+**Mass Spectrometry**
+- 반응 부산물 실시간 모니터링
+- SiF4 (m/z=104), AlCl3 (m/z=133), WF6 (m/z=298)
+
+### 2. In-situ 측정
+**Interferometry**
+- 실시간 두께 측정
+- 식각 속도 모니터링
+
+**Impedance Monitoring**
+- 플라즈마 상태 변화 감지
+- Chamber condition 모니터링
+
+### 3. 공정 제어 파라미터
+```
+CD (Critical Dimension) Control
+- Target: ±5% within wafer
+- Control: Gas ratio, bias power
+
+Profile Control
+- Target: 88-92° sidewall angle
+- Control: Temperature, pressure
+
+Selectivity Control
+- Target: >10:1 (material dependent)
+- Control: Chemistry selection
+
+Uniformity Control
+- Target: ±3% (1σ) across wafer
+- Control: Gas distribution, temperature
+```
+
+## 고급 Etch 기술
+
+### 1. Atomic Layer Etching (ALE)
+```
+원리: 흡착 → 반응 → 탈착의 자기제한 반응
+장점: 원자 수준 정밀 제어
+응용: 3D NAND, FinFET, Gate-all-around
+```
+
+### 2. Directional ALE
+```
+방법: Ion bombardment + Chemical reaction
+특징: 수직 방향 선택적 식각
+응용: Spacer 형성, HAR contact
+```
+
+### 3. Cryogenic Etch
+```
+온도: -120°C ~ -80°C
+장점: 극도로 높은 선택비
+응용: Deep silicon etch, MEMS
+```
+
+## 공정 결함 및 해결방안
+
+### 1. 공통 결함
+**Microloading**
+- 현상: 패턴 밀도에 따른 식각 속도 차이
+- 원인: 반응 부산물 배출 제한
+- 해결: 가스 유량 증가, 압력 최적화
+
+**ARDE (Aspect Ratio Dependent Etching)**
+- 현상: Aspect ratio에 따른 식각 속도 감소
+- 원인: 이온 flux 감소, neutral 공급 제한
+- 해결: 높은 이온 에너지, pulsed plasma
+
+**Sidewall Bowing**
+- 현상: Sidewall이 볼록하게 식각
+- 원인: 불충분한 passivation
+- 해결: Polymerizing gas 추가, 온도 조절
+
+### 2. 물질별 특별 결함
+**SiO2 Etch**
+- Black silicon: 높은 aspect ratio에서 발생
+- Trenching: Over etch 시 기판 손상
+
+**Metal Etch**
+- Corrosion: 습도 및 잔여 Cl 영향
+- Redeposition: 식각된 금속의 재증착
+
+**TiN Etch**
+- Faceting: 결정 방향에 따른 식각 속도 차이
+- Oxidation: 산소 노출에 의한 산화막 형성
+
+## 안전 및 환경 고려사항
+
+### 1. 독성 가스 관리
+**고독성 가스 (PH3, AsH3, B2H6)**
+- 농도 모니터링 시스템 필수
+- 비상 정지 시스템 구비
+- 개인 보호 장비 착용
+
+**부식성 가스 (HF, HCl, HBr)**
+- 재질 호환성 확인
+- 스크러버 시스템 운영
+- 정기적 장비 점검
+
+### 2. 폐가스 처리
+**Scrubber System**
+- Wet scrubber: 수용성 가스 제거
+- Dry scrubber: 고체 흡착제 사용
+- Thermal oxidizer: 유기물 완전 연소
+
+**Global Warming Gas**
+- CF4, CHF3 등 온실가스 배출 최소화
+- 대체 가스 개발 및 적용
+- 분해 효율 향상
+
+---
+
+*Dry Etch 공정은 반도체 제조에서 가장 복잡하고 중요한 공정 중 하나입니다. 각 물질별 최적 조건을 이해하고 지속적인 공정 개선을 통해 안정적인 생산이 가능합니다.*
