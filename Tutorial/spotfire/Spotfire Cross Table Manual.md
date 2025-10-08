@@ -2,7 +2,7 @@
 
 > 📝 **참고**: 이 매뉴얼에는 스크린샷 위치가 표시되어 있습니다. 실제 Spotfire 화면을 캡처하여 해당 위치에 이미지를 추가하시면 더욱 완성도 높은 매뉴얼이 됩니다.
 
-> 🔗 **연관 매뉴얼**: [[Spotfire Bar Chart Manual]] | [[Spotfire Heatmap Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[README]]
+> 🔗 **연관 매뉴얼**: [[Spotfire Bar Chart Manual]] | [[Spotfire Heatmap Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[spotfire/README]]
 
 ## 개요
 Cross Table(교차표)은 Spotfire에서 데이터를 행과 열로 교차 분석하여 표 형태로 표시하는 강력한 시각화 도구입니다. 반도체 업무에서 공정별/장비별 성과 비교, 품질 데이터 매트릭스 분석, 다차원 데이터 요약 등에 필수적으로 사용됩니다.

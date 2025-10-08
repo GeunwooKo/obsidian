@@ -2,7 +2,7 @@
 
 > 📝 **참고**: 이 매뉴얼에는 스크린샷 위치가 표시되어 있습니다. 실제 Spotfire 화면을 캡처하여 해당 위치에 이미지를 추가하시면 더욱 완성도 높은 매뉴얼이 됩니다.
 
-> 🔗 **연관 매뉴얼**: [[Spotfire Box Plot Manual]] | [[Spotfire Scatter Plot Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[README]]
+> 🔗 **연관 매뉴얼**: [[Spotfire Box Plot Manual]] | [[Spotfire Scatter Plot Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[spotfire/README]]
 
 ## 개요
 Line Chart(선 차트)는 시간에 따른 데이터 변화를 시각화하는 데 가장 효과적인 차트입니다. 반도체 공정에서 시간별 수율 변화, 장비 파라미터 트렌드, 품질 지표 모니터링 등에 필수적으로 사용됩니다.

@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "e2485b476eb36fa0",
+        "id": "39bba7fe0a006a24",
         "type": "tabs",
         "children": [
           {
-            "id": "60fd977f3b407311",
+            "id": "88fc5236841b2e63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spotfire/Screenshot Guide.md",
+                "file": "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Screenshot Guide"
+              "title": "Endpoint Detection (EPD) - Eye-D System"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3efe9b862772b783",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "388b9c2c16b56473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "분석/MOS_CV_Analysis.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOS_CV_Analysis"
             }
           }
         ]
@@ -122,16 +142,6 @@
             }
           },
           {
-            "id": "388b9c2c16b56473",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
             "id": "c90c3783fd63a1df",
             "type": "leaf",
             "state": {
@@ -152,15 +162,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 1.base",
+                "file": "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 1 의 개요"
+              "title": "Endpoint Detection (EPD) - Eye-D System 의 개요"
             }
           },
+          {
+            "id": "89b6879aae194de2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "4608ff9a19689048",
+        "type": "tabs",
+        "children": [
           {
             "id": "01950f552b0c68e9",
             "type": "leaf",
@@ -170,23 +197,12 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "89b6879aae194de2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244
+    "width": 363
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,43 +219,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "60fd977f3b407311",
+  "active": "388b9c2c16b56473",
   "lastOpenFiles": [
-    "spotfire/Spotfire Scatter Plot Manual.md",
-    "spotfire/Spotfire Line Chart Manual.md",
-    "spotfire/README.md",
-    "spotfire/Screenshot Guide.md",
-    "spotfire/Spotfire Cross Table Manual.md",
-    "spotfire/Spotfire Custom Expression & Document Property Manual.md",
-    "spotfire/Spotfire Information Link+ Impala SQL Guide.md",
-    "Unit Process/Overlay Measurement Guide.md",
-    "Unit Process/Photolithography Process Guide.md",
+    "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
+    "xsection.base",
+    "Unit Process/Wet Etch Rates for Micromachining Processing.md",
+    "daily notes/무제.md",
+    "programming/Regex 가이드.md",
+    "programming/Markdown 가이드.md",
+    "programming/LaTeX 가이드.md",
+    "분석/MOS_CV_Analysis.md",
+    "반도체 측정 장비.md",
+    "분석/Power MOSFET 측정항목.md",
+    "분석/Ti_TiN_W 면저항 분석 및 두께 추정.md",
+    "분석",
+    "programming",
+    "programming/KLayout_XSection_Manual/README.md",
+    "programming/KLayout_XSection_Manual/07_FAQ.md",
+    "programming/KLayout_XSection_Manual/06_참고자료.md",
+    "programming/KLayout_XSection_Manual/05_실전_예제.md",
+    "programming/KLayout_XSection_Manual/03_Etch_메서드.md",
+    "programming/KLayout_XSection_Manual/02_Grow_메서드.md",
+    "programming/KLayout_XSection_Manual/01_레이어_연산.md",
+    "programming/KLayout_XSection_Manual/00_시작하기.md",
+    "programming/KLayout_XSection_Manual/04_고급_기능.md",
+    "programming/KLayout_XSection_Manual",
+    "Process/25.0 Passivation.md",
     "Process/25.0 PSPI.md",
     "Process/50.0 BGBM.md",
-    "Process/25.0 Passivation.md",
-    "Process/23.0 Front Metal.md",
-    "Process/21.0 GCONT.md",
-    "Process/19.0 Ni Silicide.md",
-    "Process/17.0 SCONT.md",
-    "Process/15.0 PMD Depo.md",
-    "Process/13.0 GPoly.md",
-    "Process/11.5 HTA.md",
-    "Process/5.0 PWELL.md",
-    "Process/6.0 NPLUS.md",
-    "Process/3.0 JFET.md",
-    "spotfire/Spotfire Bar Chart Manual.md",
+    "Process/INDEX.md",
+    "Unit Process/Tungsten Etching Comprehensive Guide.md",
+    "Unit Process/_archived/Process window for neutral-to-ion ratio.md",
+    "Unit Process/_archived",
+    "daily notes",
     "SiC Planar MOSFET.canvas",
-    "이건 뭐지.md",
-    "Unit Process/Dry Etch.md",
-    "Unit Process/Etchback dry etch mechanisms.md",
     "spotfire/images",
     "Unit Process",
     "Process/17.0 SCONT.md.1757780773079.backup",
     "무제.canvas",
-    "무제.base",
-    "무제 1.base",
-    "Clippings",
-    "Daily",
-    "무제"
+    "무제 1.base"
   ]
 }

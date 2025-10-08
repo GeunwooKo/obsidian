@@ -2,7 +2,7 @@
 
 > 📝 **참고**: 이 매뉴얼에는 스크린샷 위치가 표시되어 있습니다. 실제 Spotfire 화면을 캡처하여 해당 위치에 이미지를 추가하시면 더욱 완성도 높은 매뉴얼이 됩니다.
 
-> 🔗 **연관 매뉴얼**: [[Spotfire Heatmap Manual]] | [[Spotfire Cross Table Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[README]]
+> 🔗 **연관 매뉴얼**: [[Spotfire Heatmap Manual]] | [[Spotfire Cross Table Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[spotfire/README]]
 
 ## 개요
 Scatter Plot(산점도)는 두 개 이상의 변수 간의 관계를 시각화하는 가장 기본적이면서도 강력한 차트 유형입니다. Spotfire에서 Scatter Plot을 활용하여 데이터의 패턴, 상관관계, 이상값을 효과적으로 분석할 수 있습니다.

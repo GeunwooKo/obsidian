@@ -2,7 +2,7 @@
 
 > 📝 **참고**: 이 매뉴얼에는 스크린샷 위치가 표시되어 있습니다. 실제 Spotfire 화면을 캡처하여 해당 위치에 이미지를 추가하시면 더욱 완성도 높은 매뉴얼이 됩니다.
 
-> 🔗 **연관 매뉴얼**: [[Spotfire Cross Table Manual]] | [[Spotfire Line Chart Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[README]]
+> 🔗 **연관 매뉴얼**: [[Spotfire Cross Table Manual]] | [[Spotfire Line Chart Manual]] | [[Spotfire Custom Expression & Document Property Manual]] | [[spotfire/README]]
 
 ## 개요
 Bar Chart(막대 차트)는 범주형 데이터를 비교하는 데 가장 효과적인 시각화 도구입니다. 반도체 업무에서 제품별 수율 비교, 장비별 성능 분석, 불량 유형별 분포 등을 분석할 때 필수적으로 사용됩니다.

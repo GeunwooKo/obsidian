@@ -2,7 +2,7 @@
 
 > 📝 **참고**: 이 매뉴얼에는 스크린샷 위치가 표시되어 있습니다. 실제 Spotfire 화면을 캡처하여 해당 위치에 이미지를 추가하시면 더욱 완성도 높은 매뉴얼이 됩니다.
 
-> 🔗 **연관 매뉴얼**: [[Spotfire Scatter Plot Manual]] | [[Spotfire Line Chart Manual]] | [[Spotfire Bar Chart Manual]] | [[Spotfire Heatmap Manual]] | [[Spotfire Box Plot Manual]] | [[Spotfire Cross Table Manual]] | [[Spotfire Information Link+ Impala SQL Guide]] | [[README]]
+> 🔗 **연관 매뉴얼**: [[Spotfire Scatter Plot Manual]] | [[Spotfire Line Chart Manual]] | [[Spotfire Bar Chart Manual]] | [[Spotfire Heatmap Manual]] | [[Spotfire Box Plot Manual]] | [[Spotfire Cross Table Manual]] | [[Spotfire Information Link+ Impala SQL Guide]] | [[spotfire/README]]
 
 ## 개요
 Custom Expression과 Document Property는 Spotfire의 고급 기능으로, 복잡한 계산과 동적 분석을 가능하게 합니다. Custom Expression을 통해 기존 데이터를 변환하고 새로운 인사이트를 도출할 수 있으며, Document Property를 통해 대시보드 전체의 동적 제어가 가능합니다.

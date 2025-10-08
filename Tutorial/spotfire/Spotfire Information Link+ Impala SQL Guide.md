@@ -2,7 +2,7 @@
 
 > 📝 **참고**: Spotfire Information Link+에서 Impala SQL을 사용하여 동적 데이터 연결을 구성하는 방법을 설명합니다.
 
-> 🔗 **연관 매뉴얼**: [[Spotfire Custom Expression & Document Property Manual]] | [[README]]
+> 🔗 **연관 매뉴얼**: [[Spotfire Custom Expression & Document Property Manual]] | [[spotfire/README]]
 
 ## 개요
 Information Link+는 Spotfire에서 외부 데이터베이스와 동적으로 연결하여 실시간 데이터를 가져오는 기능입니다. Impala SQL을 사용하여 복잡한 쿼리와 파라미터화된 데이터 소스를 구성할 수 있습니다.
