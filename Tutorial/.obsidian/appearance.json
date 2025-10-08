@@ -1,4 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "textFontFamily": "리디바탕",
+  "enabledCssSnippets": []
 }

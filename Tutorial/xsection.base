@@ -1,7 +1,0 @@
-views:
-  - type: table
-    name: 표
-    filters:
-      and:
-        - file.inFolder("programming/KLayout_XSection_Manual")
-    sort: []

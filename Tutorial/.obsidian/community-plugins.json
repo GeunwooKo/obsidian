@@ -6,5 +6,7 @@
   "calendar",
   "obsidian-kanban",
   "smart-composer",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "dataview",
+  "obsidian-excalidraw-plugin"
 ]
