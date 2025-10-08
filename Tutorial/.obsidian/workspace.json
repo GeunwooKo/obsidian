@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily notes/2025-10-07.md",
-                "mode": "preview",
+                "file": "Task 주식.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-07"
+              "title": "Task 주식"
             }
           }
         ]
@@ -202,6 +202,10 @@
   },
   "active": "df879823141944d6",
   "lastOpenFiles": [
+    "daily notes/2025-07-28.md",
+    "Task 주식.md",
+    "daily notes/2025-10-08.md",
+    "daily notes/2025-10-07.md",
     "daily notes/2025-10-06.md",
     "daily notes/2025-10-05.md",
     "daily notes/2025-09-30.md",
@@ -209,9 +213,6 @@
     "daily notes/2025-09-24.md",
     "daily notes/2025-09-19.md",
     "daily notes/2025-08-18.md",
-    "daily notes/2025-07-28.md",
-    "daily notes/2025-10-08.md",
-    "daily notes/2025-10-07.md",
     "daily notes/무제.md",
     "xsection.base",
     "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
@@ -230,7 +231,6 @@
     "programming/KLayout_XSection_Manual/06_참고자료.md",
     "programming/KLayout_XSection_Manual/05_실전_예제.md",
     "programming/KLayout_XSection_Manual/03_Etch_메서드.md",
-    "programming/KLayout_XSection_Manual/02_Grow_메서드.md",
     "programming/KLayout_XSection_Manual",
     "Unit Process/_archived",
     "daily notes",
