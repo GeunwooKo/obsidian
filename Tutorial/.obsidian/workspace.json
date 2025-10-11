@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a1e539f06e41efa",
+        "id": "5b09fc22f8cf06c9",
         "type": "tabs",
         "children": [
           {
-            "id": "df879823141944d6",
+            "id": "f74bfc9f814a8373",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Task 주식.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#주식",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,6 +87,7 @@
       {
         "id": "f7b25170c85a206d",
         "type": "tabs",
+        "dimension": 33.91472868217054,
         "children": [
           {
             "id": "7c0c83a7d10131ae",
@@ -122,33 +123,28 @@
             }
           },
           {
-            "id": "c90c3783fd63a1df",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
-            }
-          },
-          {
             "id": "388e75ba9ede30cf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
+                "file": "무제 1.base",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Endpoint Detection (EPD) - Eye-D System 의 개요"
+              "title": "무제 1 의 개요"
+            }
+          },
+          {
+            "id": "01950f552b0c68e9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -162,34 +158,56 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
-        "id": "4608ff9a19689048",
+        "id": "1873311c63f5accc",
         "type": "tabs",
+        "dimension": 34.980620155038764,
         "children": [
           {
-            "id": "01950f552b0c68e9",
+            "id": "388b9c2c16b56473",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "graph",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3399631f4d8352b0",
+        "type": "tabs",
+        "dimension": 31.1046511627907,
+        "children": [
+          {
+            "id": "c90c3783fd63a1df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 363
+    "width": 283
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-kanban:새 보드 만들기": false,
       "smart-composer:Open smart composer": false,
       "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
@@ -197,48 +215,49 @@
       "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "graph:그래프 뷰 열기": false
     }
   },
-  "active": "df879823141944d6",
+  "active": "01950f552b0c68e9",
   "lastOpenFiles": [
-    "daily notes/2025-07-28.md",
     "Task 주식.md",
-    "daily notes/2025-10-08.md",
-    "daily notes/2025-10-07.md",
-    "daily notes/2025-10-06.md",
-    "daily notes/2025-10-05.md",
-    "daily notes/2025-09-30.md",
-    "daily notes/2025-09-29.md",
-    "daily notes/2025-09-24.md",
-    "daily notes/2025-09-19.md",
-    "daily notes/2025-08-18.md",
-    "daily notes/무제.md",
-    "xsection.base",
-    "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
-    "분석/MOS_CV_Analysis.md",
+    "daily notes/2025-10-11.md",
+    "Process/INDEX.md",
     "Unit Process/Wet Etch Rates for Micromachining Processing.md",
+    "Unit Process/Chemical vs physical etchback balance.md",
+    "spotfire/Spotfire Line Chart Manual.md",
+    "spotfire/Spotfire Information Link+ Impala SQL Guide.md",
+    "spotfire/Spotfire Custom Expression & Document Property Manual.md",
+    "spotfire/README.md",
+    "SiC Planar MOSFET.canvas",
+    "분석/Ti_TiN_W 면저항 분석 및 두께 추정.md",
+    "분석/Power MOSFET 측정항목.md",
+    "분석/MOS_CV_Analysis.md",
+    "daily notes/2025-07-28.md",
+    "img/Pasted image 20250831024412.png",
+    "Process/dry.md",
+    "programming/KLayout_XSection_Manual/06_참고자료.md",
+    "programming/KLayout_XSection_Manual/05_실전_예제.md",
+    "programming/KLayout_XSection_Manual/04_고급_기능.md",
+    "programming/KLayout_XSection_Manual/03_Etch_메서드.md",
+    "programming/KLayout_XSection_Manual/02_Grow_메서드.md",
+    "programming/KLayout_XSection_Manual/01_레이어_연산.md",
+    "programming/KLayout_XSection_Manual/00_시작하기.md",
     "programming/Regex 가이드.md",
     "programming/Markdown 가이드.md",
     "programming/LaTeX 가이드.md",
-    "반도체 측정 장비.md",
-    "분석/Power MOSFET 측정항목.md",
-    "분석/Ti_TiN_W 면저항 분석 및 두께 추정.md",
+    "Unit Process/Dry Etch.md",
+    "Unit Process/Dry Etch Mechanisms.md",
     "분석",
-    "programming",
-    "programming/KLayout_XSection_Manual/README.md",
-    "programming/KLayout_XSection_Manual/07_FAQ.md",
-    "programming/KLayout_XSection_Manual/06_참고자료.md",
-    "programming/KLayout_XSection_Manual/05_실전_예제.md",
-    "programming/KLayout_XSection_Manual/03_Etch_메서드.md",
     "programming/KLayout_XSection_Manual",
-    "Unit Process/_archived",
+    "programming",
     "daily notes",
-    "SiC Planar MOSFET.canvas",
     "spotfire/images",
     "Unit Process",
     "Process/17.0 SCONT.md.1757780773079.backup",
     "무제.canvas",
-    "무제 1.base"
+    "무제.base",
+    "무제 1.base",
+    "Clippings"
   ]
 }
