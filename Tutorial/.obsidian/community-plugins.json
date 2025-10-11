@@ -9,5 +9,8 @@
   "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
   "dataview",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-local-rest-api",
+  "mcp-tools",
+  "periodic-notes"
 ]
