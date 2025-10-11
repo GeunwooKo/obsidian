@@ -232,26 +232,232 @@ $$
 
 ## 8. 수식 정렬
 
-### 8.1 정렬 환경 (align)
+### 8.1 기본 정렬 환경 (align)
+
+`align` 환경은 여러 줄의 수식을 등호나 특정 기호를 기준으로 정렬할 때 사용합니다. `&` 기호를 정렬 기준점으로 사용합니다.
 
 ```latex
-$$
+$
 \begin{align}
 f(x) &= x^2 + 2x + 1 \\
-&= (x+1)^2
+&= (x+1)^2 \\
+&= (x+1)(x+1)
 \end{align}
-$$
+$
 ```
 
-### 8.2 경우 나누기 (cases)
+렌더링:
+$
+\begin{align}
+f(x) &= x^2 + 2x + 1 \\
+&= (x+1)^2 \\
+&= (x+1)(x+1)
+\end{align}
+$
+
+### 8.2 중앙 정렬 (gathered)
+
+`gathered` 환경은 여러 줄의 수식을 중앙에 정렬합니다. 정렬 기준점 없이 모든 수식이 중앙에 위치합니다.
 
 ```latex
-$$
+$
+\begin{gathered}
+E = mc^2 \\
+F = ma \\
+p = mv
+\end{gathered}
+$
+```
+
+렌더링:
+$
+\begin{gathered}
+E = mc^2 \\
+F = ma \\
+p = mv
+\end{gathered}
+$
+
+### 8.3 좌측 정렬 (aligned with flush left)
+
+`aligned` 환경에서 `&` 기호를 수식의 시작 부분에 배치하면 좌측 정렬 효과를 얻을 수 있습니다.
+
+```latex
+$
+\begin{aligned}
+&f(x) = x^2 + 2x + 1 \\
+&g(x) = x^3 - 3x + 2 \\
+&h(x) = 2x + 5
+\end{aligned}
+$
+```
+
+렌더링:
+$
+\begin{aligned}
+&f(x) = x^2 + 2x + 1 \\
+&g(x) = x^3 - 3x + 2 \\
+&h(x) = 2x + 5
+\end{aligned}
+$
+
+### 8.4 우측 정렬
+
+우측 정렬은 `&` 기호를 수식의 끝에 배치하여 구현할 수 있습니다.
+
+```latex
+$
+\begin{aligned}
+x^2 + 2x + 1& \\
+x^3 - 3x + 2& \\
+2x + 5&
+\end{aligned}
+$
+```
+
+렌더링:
+$
+\begin{aligned}
+x^2 + 2x + 1& \\
+x^3 - 3x + 2& \\
+2x + 5&
+\end{aligned}
+$
+
+### 8.5 다중 정렬점
+
+하나의 수식에서 여러 개의 정렬 기준점을 사용할 수 있습니다. 여러 개의 `&`를 사용하여 구현합니다.
+
+```latex
+$
+\begin{align}
+x &= a + b + c \\
+&= a + b + c + d - d \\
+&= (a + b) + (c + d) - d
+\end{align}
+$
+```
+
+**복잡한 예제 - 좌우 양쪽 정렬:**
+```latex
+$
+\begin{aligned}
+\text{식 1:} \quad x + y &= 10 & \text{(덧셈)} \\
+\text{식 2:} \quad x - y &= 2 & \text{(뺄셈)} \\
+\text{해:} \quad x &= 6, \; y = 4 & \text{(결과)}
+\end{aligned}
+$
+```
+
+렌더링:
+$
+\begin{aligned}
+\text{식 1:} \quad x + y &= 10 & \text{(덧셈)} \\
+\text{식 2:} \quad x - y &= 2 & \text{(뺄셈)} \\
+\text{해:} \quad x &= 6, \; y = 4 & \text{(결과)}
+\end{aligned}
+$
+
+### 8.6 정렬 비교표
+
+| 환경 | 용도 | 정렬 방식 | 기호 |
+|------|------|-----------|------|
+| `align` | 등호 기준 정렬 | 정렬점 기준 | `&` |
+| `aligned` | 내부 정렬 (인라인) | 정렬점 기준 | `&` |
+| `gather` | 중앙 정렬 | 중앙 | 없음 |
+| `gathered` | 중앙 정렬 (인라인) | 중앙 | 없음 |
+| `split` | 긴 수식 분할 | 정렬점 기준 | `&` |
+| `multline` | 긴 수식 여러 줄 | 첫줄 좌, 끝줄 우 | 없음 |
+
+### 8.7 split 환경 (긴 수식 분할)
+
+`split` 환경은 한 개의 긴 수식을 여러 줄로 나누어 표시할 때 사용합니다.
+
+```latex
+$
+\begin{split}
+(a + b)^4 &= (a + b)^2 (a + b)^2 \\
+&= (a^2 + 2ab + b^2)(a^2 + 2ab + b^2) \\
+&= a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4
+\end{split}
+$
+```
+
+### 8.8 경우 나누기 (cases)
+
+```latex
+$
 f(x) = \begin{cases}
 x^2 & \text{if } x \geq 0 \\
 -x^2 & \text{if } x < 0
 \end{cases}
-$$
+$
+```
+
+렌더링:
+$
+f(x) = \begin{cases}
+x^2 & \text{if } x \geq 0 \\
+-x^2 & \text{if } x < 0
+\end{cases}
+$
+
+### 8.9 실전 예제 - 연립방정식
+
+**중앙 정렬:**
+```latex
+$
+\begin{gathered}
+2x + 3y = 7 \\
+4x - y = 5
+\end{gathered}
+$
+```
+
+**등호 정렬:**
+```latex
+$
+\begin{align}
+2x + 3y &= 7 \\
+4x - y &= 5
+\end{align}
+$
+```
+
+**좌측 정렬 + 설명:**
+```latex
+$
+\begin{aligned}
+&2x + 3y = 7 && \text{... (1)} \\
+&4x - y = 5 && \text{... (2)} \\
+&\text{(1)}×2 - \text{(2)}: \quad 7y = 9 && \\
+&\therefore y = \frac{9}{7}, \; x = \frac{8}{7} &&
+\end{aligned}
+$
+```
+
+### 8.10 반도체 공정 예제
+
+**저항 계산 정렬:**
+```latex
+$
+\begin{align}
+R_{\text{total}} &= R_1 + R_2 + R_3 \\
+&= \frac{\rho_1 L_1}{A_1} + \frac{\rho_2 L_2}{A_2} + \frac{\rho_3 L_3}{A_3} \\
+&= \frac{R_{s1}}{W_1} + \frac{R_{s2}}{W_2} + \frac{R_{s3}}{W_3}
+\end{align}
+$
+```
+
+**확산 프로파일 (좌우 정렬):**
+```latex
+$
+\begin{aligned}
+\text{Surface:} \quad C(0,t) &= C_0 & t &> 0 \\
+\text{Bulk:} \quad C(\infty,t) &= 0 & t &> 0 \\
+\text{Initial:} \quad C(x,0) &= 0 & x &> 0
+\end{aligned}
+$
 ```
 
 ---

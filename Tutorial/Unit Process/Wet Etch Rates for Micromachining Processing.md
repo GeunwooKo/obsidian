@@ -407,9 +407,9 @@ Williams는 변동 요인을 **3그룹**으로 분류:
 
 #### Undercut/Bias
 **계산**:
-```
-Bias = Etch Rate × Time / 2
-```
+
+$$Bias = \frac{Etch Rate × Time}{2}$$
+
 
 ---
 
@@ -492,14 +492,10 @@ TMAH: R<100>/R<111> = 37:1
 #### 에칭 계산
 
 **깊이**:
-```
-D = R_xxx × T
-```
+$$D = R_{xxx} × T$$
 
 **이방성**:
-```
-S = (R_fast - R_slow) / R_slow
-```
+$$S = (R_{fast} - R_{slow}) / R_{slow}$$
 
 #### (100) Wafer 구조
 
@@ -509,15 +505,16 @@ S = (R_fast - R_slow) / R_slow
 - (111)은 etch stop
 
 **Angle**:
-```
-tan(θ) = √2
-θ = 54.74°
-```
+$$
+\begin{align}
+\tan\theta = \sqrt{ 2 }\\
+\theta = 54.74^0
+\end{align}$$
 
 **개구부**:
-```
-Width = 2×Depth×√2 + W_mask
-```
+
+$$Width = 2×Depth×\sqrt{2} + W_{mask}$$
+
 
 #### (110) Wafer 구조
 

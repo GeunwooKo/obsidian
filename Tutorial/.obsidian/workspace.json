@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5b09fc22f8cf06c9",
+        "id": "794d8a522a6f5366",
         "type": "tabs",
         "children": [
           {
-            "id": "f74bfc9f814a8373",
+            "id": "c5caae81857f6ab0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task 주식.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Task 주식"
+              "title": "새 탭"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#주식",
+                "query": "tag:#SiC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 233
   },
   "right": {
     "id": "a33d66f5b63c5c68",
@@ -87,8 +83,18 @@
       {
         "id": "f7b25170c85a206d",
         "type": "tabs",
-        "dimension": 33.91472868217054,
+        "dimension": 33.13953488372093,
         "children": [
+          {
+            "id": "89b6879aae194de2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
           {
             "id": "7c0c83a7d10131ae",
             "type": "leaf",
@@ -128,15 +134,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 1.base",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 1 의 개요"
+              "title": "개요"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "4abc08014706a5a8",
+        "type": "tabs",
+        "dimension": 34.39922480620155,
+        "children": [
           {
             "id": "01950f552b0c68e9",
             "type": "leaf",
@@ -146,41 +158,13 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "89b6879aae194de2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "1873311c63f5accc",
-        "type": "tabs",
-        "dimension": 34.980620155038764,
-        "children": [
-          {
-            "id": "388b9c2c16b56473",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
           }
         ]
       },
       {
         "id": "3399631f4d8352b0",
         "type": "tabs",
-        "dimension": 31.1046511627907,
+        "dimension": 32.46124031007752,
         "children": [
           {
             "id": "c90c3783fd63a1df",
@@ -215,39 +199,41 @@
       "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "graph:그래프 뷰 열기": false
     }
   },
-  "active": "01950f552b0c68e9",
+  "active": "c5caae81857f6ab0",
   "lastOpenFiles": [
-    "Task 주식.md",
-    "daily notes/2025-10-11.md",
-    "Process/INDEX.md",
-    "Unit Process/Wet Etch Rates for Micromachining Processing.md",
-    "Unit Process/Chemical vs physical etchback balance.md",
-    "spotfire/Spotfire Line Chart Manual.md",
-    "spotfire/Spotfire Information Link+ Impala SQL Guide.md",
-    "spotfire/Spotfire Custom Expression & Document Property Manual.md",
-    "spotfire/README.md",
-    "SiC Planar MOSFET.canvas",
-    "분석/Ti_TiN_W 면저항 분석 및 두께 추정.md",
-    "분석/Power MOSFET 측정항목.md",
-    "분석/MOS_CV_Analysis.md",
-    "daily notes/2025-07-28.md",
-    "img/Pasted image 20250831024412.png",
-    "Process/dry.md",
-    "programming/KLayout_XSection_Manual/06_참고자료.md",
-    "programming/KLayout_XSection_Manual/05_실전_예제.md",
-    "programming/KLayout_XSection_Manual/04_고급_기능.md",
-    "programming/KLayout_XSection_Manual/03_Etch_메서드.md",
-    "programming/KLayout_XSection_Manual/02_Grow_메서드.md",
-    "programming/KLayout_XSection_Manual/01_레이어_연산.md",
-    "programming/KLayout_XSection_Manual/00_시작하기.md",
-    "programming/Regex 가이드.md",
-    "programming/Markdown 가이드.md",
+    "Unit Process/Photolithography Process Guide.md",
     "programming/LaTeX 가이드.md",
-    "Unit Process/Dry Etch.md",
+    "Unit Process/Overlay Measurement Guide.md",
+    "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
     "Unit Process/Dry Etch Mechanisms.md",
+    "Unit Process/Aluminum-Cl-Etch-ACT945-Cleaning.md",
+    "Unit Process/Dry Etch.md",
+    "Chemical vs physical etchback balance.md",
+    "Unit Process/Temperature Effect on Reaction Rate.md",
+    "Unit Process/Semiconductor Wet Cleaning Solutions.md",
+    "Unit Process/Wet Etch Rates for Micromachining Processing.md",
+    "Unit Process/Tungsten Etching Comprehensive Guide.md",
+    "daily notes/2025-10-08.md",
+    "daily notes/2025-10-11.md",
+    "daily notes/Daily note list.base",
+    "daily notes/2025-10-06.md",
+    "daily notes/2025-09-30.md",
+    "daily notes/2025-09-29.md",
+    "daily notes/2025-08-18.md",
+    "daily notes/2025-07-28.md",
+    "daily notes/Daily Note 본체.md",
+    "daily notes/2025-W41.md",
+    "2025-10-09.md",
+    "2025-10-10.md",
+    "daily notes/Untitled.md",
+    "Process/INDEX.md",
+    "Task 주식.md",
+    "SiC Planar MOSFET.canvas",
+    "img/Pasted image 20250831024412.png",
     "분석",
     "programming/KLayout_XSection_Manual",
     "programming",
@@ -256,7 +242,6 @@
     "Unit Process",
     "Process/17.0 SCONT.md.1757780773079.backup",
     "무제.canvas",
-    "무제.base",
     "무제 1.base",
     "Clippings"
   ]

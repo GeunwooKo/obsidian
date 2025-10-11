@@ -1,5 +1,19 @@
 # Photolithography 공정 설명
 
+## 목차
+1. [[#개요]]
+2. [[#공정 원리]]
+3. [[#상세 공정 단계]]
+4. [[#주요 공정 변수 및 제어]]
+5. [[#공정 모니터링 및 측정]]
+6. [[#주요 결함 및 해결 방법]]
+7. [[#고급 기술]]
+8. [[#공정 최적화 전략]]
+9. [[#품질 관리]]
+10. [[#안전 및 환경]]
+
+---
+
 ## 개요
 Photolithography(포토리소그래피)는 반도체 제조에서 가장 핵심적인 공정 중 하나로, 빛을 이용하여 웨이퍼 표면에 원하는 패턴을 형성하는 기술입니다. 이 공정을 통해 회로의 미세한 패턴을 정확하게 웨이퍼에 전사할 수 있습니다.
 
@@ -40,11 +54,14 @@ Photolithography(포토리소그래피)는 반도체 제조에서 가장 핵심�
 - **코팅 두께**: 0.5-3.0 μm (회전속도에 반비례)
 
 #### 두께 제어 공식
-```
-두께 ∝ 1/√(회전속도)
-두께 = K × (점도)^α × (회전속도)^β
-여기서 K는 상수, α≈0.5, β≈-0.5
-```
+
+$$ \begin{aligned}
+&Thickness ∝ \frac{1}{\sqrt{\phi}}\\
+&Thickness = K × {\mu}^{\alpha} × {\phi}^{\beta}\\
+\\
+&여기서\;K는\;상수,\;\alpha\;≈\;0.5,\;\beta\;≈\;-0.5,\;\mu:\;viscocity\;of\;resist, \phi:\;RPM\\
+\end{aligned} $$
+
 
 ### 3. 소프트 베이킹 (Soft Bake/Pre-bake)
 ```
@@ -189,18 +206,20 @@ Photolithography(포토리소그래피)는 반도체 제조에서 가장 핵심�
 ```
 1. 노광량 최적화
    - i-line resist 특성 고려
-   - Standing wave 효과 최소화
-   - BARC (Bottom Anti-Reflective Coating) 활용
+   - 두께운 resist 허용 (높은 DOF)
+   - Soft bake 온도 제어
 
 2. 포커스 제어
    - 웨이퍼 평탄도 관리
    - Chuck temperature 안정화
    - Auto-focus offset 조정
+   - 넓은 DOF 활용 (i-line 장점)
 
 3. Overlay 개선
    - 웨이퍼 mark 품질 관리
    - Alignment 정확도 향상
    - Process-induced shift 보정
+   - Thermal expansion 고려
 ```
 
 **ASML KrF Scanner 최적화 포인트**
@@ -209,16 +228,20 @@ Photolithography(포토리소그래피)는 반도체 제조에서 가장 핵심�
    - Off-axis illumination 최적화
    - Phase shift mask 활용
    - OPC (Optical Proximity Correction)
+   - **BARC 사용 필수** (Standing wave 방지)
 
 2. 공정 윈도우 확장
    - Dose/Focus matrix 최적화
    - MEEF (Mask Error Enhancement Factor) 최소화
    - Process latitude 극대화
+   - **Standing wave 효과 감소**
+   - **얘은 resist 두께 제어** (좋은 DOF)
 
 3. Overlay 정밀 제어
    - Grid matching 최적화
    - Higher order correction
    - Intra-field correction
+   - 고정밀 온도 제어
 ```
 
 #### 주요 노광 파라미터
@@ -390,8 +413,13 @@ Critical Dimension 문제
 - **해결**: 현상 시간 단축, 노광량 조정
 
 #### T-topping
-- **원인**: Standing wave, 반사 효과
-- **해결**: BARC 사용, 노광 조건 최적화
+- **원인**: 표면 에너지 흡수, 확산 불균일, 과도한 PEB
+- **해결**: 
+  - PEB 온도/시간 최적화
+  - 노광량 조정
+  - 표면 처리 개선
+  
+**참고**: Standing wave 및 BARC는 주로 Deep UV(KrF 248nm, ArF 193nm)에서 중요한 이슈입니다. i-line(365nm)은 파장이 길어 standing wave 효과가 상대적으로 작고, 두께운 resist를 사용할 수 있어 DOF(Depth of Focus) 확보가 유리합니다.
 
 ### 3. 접착 관련 결함
 ```
