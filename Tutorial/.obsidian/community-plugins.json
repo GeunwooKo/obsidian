@@ -7,6 +7,10 @@
   "obsidian-kanban",
   "smart-composer",
   "obsidian-tasks-plugin",
+  "obsidian-excalidraw-plugin",
   "dataview",
-  "obsidian-excalidraw-plugin"
+  "obsidian-latex-suite",
+  "obsidian-local-rest-api",
+  "mcp-tools",
+  "periodic-notes"
 ]

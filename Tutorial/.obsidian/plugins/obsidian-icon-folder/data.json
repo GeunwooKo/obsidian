@@ -30,13 +30,5 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-  "Process/3.0 JFET.md": "LiArrowDownCircle",
-  "Process/5.0 PWELL.md": "LiArrowDownCircle",
-  "Process/6.0 NPLUS.md": "LiArrowDownCircle",
-  "Process/7.0 PPLUS.md": "LiArrowDownCircle",
-  "Process/9.0 JTE.md": "LiArrowDownCircle",
-  "Process/11.0 Field Oxide.md": "LiArrowDownCircle",
-  "Process/11.5 Gox 및 GPoly Depo.md": "LiArrowDownCircle",
-  "Process/11.5 HTA.md": "LiArrowDownCircle"
+  }
 }

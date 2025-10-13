@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Daily Task 템플릿.md",
+                "file": "Task 주식.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Task 템플릿"
+              "title": "Task 주식"
+            }
+          },
+          {
+            "id": "c2b2854fb7d16cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,10 +215,30 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "df879823141944d6",
+  "active": "c2b2854fb7d16cc2",
   "lastOpenFiles": [
-    "templates/Task 입력 템플릿.md",
+    "conflict-files-obsidian-git.md",
+    "Task 주식.md",
     "templates/Daily Task 템플릿.md",
+    "떡볶이/옥이떡볶이.md",
+    "떡볶이/청년다방_동탄센트럴파크점.md",
+    "떡볶이/마약떡볶이.md",
+    "떡볶이/고양이부엌.md",
+    "떡볶이/README.md",
+    "떡볶이",
+    "img/Pasted image 20251012014206.png",
+    "img/Pasted image 20251012014053.png",
+    "img/Pasted image 20251012013855.png",
+    "img/Pasted image 20251012013807.png",
+    "img/Pasted image 20251012013702.png",
+    "img/Pasted image 20251012013541.png",
+    "img/Pasted image 20251012013449.png",
+    "img/Pasted image 20251012013336.png",
+    "img/Pasted image 20251012013306.png",
+    "img/Pasted image 20251012013143.png",
+    "daily notes/Daily note list.base",
+    "daily notes/2025-10-11.md",
+    "templates/Task 입력 템플릿.md",
     "templates/회의 Task 템플릿.md",
     "templates/프로젝트 Task 템플릿.md",
     "Unit Process/Aluminum-Cl-Etch-ACT945-Cleaning.md",
@@ -212,7 +247,6 @@
     "templates",
     "daily notes/2025-07-28.md",
     "daily notes/2025-10-08.md",
-    "Task 주식.md",
     "daily notes/2025-10-07.md",
     "daily notes/2025-10-06.md",
     "daily notes/2025-10-05.md",
@@ -223,13 +257,6 @@
     "daily notes/2025-08-18.md",
     "daily notes/무제.md",
     "xsection.base",
-    "Unit Process/Endpoint Detection (EPD) - Eye-D System.md",
-    "분석/MOS_CV_Analysis.md",
-    "Unit Process/Wet Etch Rates for Micromachining Processing.md",
-    "programming/Regex 가이드.md",
-    "programming/Markdown 가이드.md",
-    "programming/LaTeX 가이드.md",
-    "반도체 측정 장비.md",
     "분석",
     "programming",
     "programming/KLayout_XSection_Manual",
@@ -237,8 +264,6 @@
     "daily notes",
     "SiC Planar MOSFET.canvas",
     "spotfire/images",
-    "Unit Process",
-    "Process/17.0 SCONT.md.1757780773079.backup",
     "무제.canvas"
   ]
 }
