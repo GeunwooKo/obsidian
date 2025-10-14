@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a1e539f06e41efa",
+        "id": "c4773be4cde08f93",
         "type": "tabs",
         "children": [
           {
-            "id": "df879823141944d6",
+            "id": "c7c3e45699b7d089",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Unit Process/Dry Etch.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Dry Etch"
             }
           }
         ]
@@ -156,9 +160,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "194fbd1b0cb2a6fc",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "4608ff9a19689048",
@@ -178,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363
+    "width": 357
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,39 +208,43 @@
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "597b4f7b47cf84c9",
+  "active": "c7c3e45699b7d089",
   "lastOpenFiles": [
+    "Unit Process/Dry Etch.md",
+    "programming/Virtuoso Skill Manual/Virtuoso Skill 가이드.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "programming/Python for Semiconductor/Python SQL 연동 가이드.md",
+    "programming/Python for Semiconductor/SciPy 가이드.md",
+    "programming/Python for Semiconductor/Python 기초 가이드.md",
+    "programming/Python for Semiconductor",
+    "Oxide_Reliability.md",
+    "programming/Python for Semiconductor/Python 데이터 분석 가이드.md",
+    "programming/README.md",
     "numpy.md",
     "scipy.md",
     "pandas.md",
     "programming/Impala SQL Manual/Impala SQL 실전 예제 모음.md",
     "programming/Impala SQL Manual/Impala SQL 빠른참조.md",
-    "programming/Impala SQL Manual/Impala SQL 가이드.md",
-    "programming/00_README.md",
-    "programming/LaTeX 가이드.md",
-    "programming/Markdown 가이드.md",
-    "programming/Obsidian Tasks 쿼리 가이드.md",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 디버깅 가이드.md",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 가이드.md",
     "programming/Impala SQL Manual",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill GUI 가이드.md",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 성능 최적화 가이드.md",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 예제 모음.md",
     "programming/Virtuoso Skill Manual",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 고급 기법.md",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 실전 레시피.md",
-    "programming/Virtuoso Skill Manual/Virtuoso Skill 빠른참조.md",
-    "templates/프로젝트 Task 템플릿.md",
-    "templates/README.md",
-    "templates/템플릿 사용 가이드.md",
-    "templates/반도체 업무 Task 템플릿.md",
-    "daily notes/2025-10-01.md",
-    "Task 주식.md",
-    "conflict-files-obsidian-git.md",
-    "templates/Daily Task 템플릿.md",
     "떡볶이",
     "img/Pasted image 20251012014206.png",
     "img/Pasted image 20251012014053.png",
@@ -242,9 +260,6 @@
     "templates",
     "xsection.base",
     "분석",
-    "programming",
-    "programming/KLayout_XSection_Manual",
-    "Unit Process/_archived",
     "SiC Planar MOSFET.canvas",
     "무제.canvas"
   ]
