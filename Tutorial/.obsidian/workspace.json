@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4773be4cde08f93",
+        "id": "f8b4479b4e3ce77c",
         "type": "tabs",
         "children": [
           {
-            "id": "c7c3e45699b7d089",
+            "id": "414240e53714dd09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unit Process/Dry Etch.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Dry Etch"
+              "title": "새 탭"
             }
           }
         ]
@@ -208,13 +204,29 @@
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "periodic-notes:Open today": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "c7c3e45699b7d089",
+  "active": "414240e53714dd09",
   "lastOpenFiles": [
+    "().md",
+    "라멘/129 라멘하우스.md",
+    "라멘/하쿠텐.md",
+    "daily notes/2025-10-19.md",
+    "라멘/쿄오모라멘.md",
+    "라멘/유즈라멘.md",
+    "라멘/우마이도.md",
+    "라멘/세상끝의라멘.md",
+    "라멘/사루카메.md",
+    "라멘/오레노라멘.md",
+    "라멘/멘쇼우라멘.md",
+    "라멘/잇텐고.md",
+    "무제.md",
+    "떡볶이/청년다방_동탄센트럴파크점.md",
+    "떡볶이/고양이부엌.md",
     "Unit Process/Dry Etch.md",
+    "라멘",
     "programming/Virtuoso Skill Manual/Virtuoso Skill 가이드.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
@@ -225,24 +237,9 @@
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "programming/Python for Semiconductor/Python SQL 연동 가이드.md",
-    "programming/Python for Semiconductor/SciPy 가이드.md",
-    "programming/Python for Semiconductor/Python 기초 가이드.md",
     "programming/Python for Semiconductor",
-    "Oxide_Reliability.md",
-    "programming/Python for Semiconductor/Python 데이터 분석 가이드.md",
-    "programming/README.md",
-    "numpy.md",
-    "scipy.md",
-    "pandas.md",
-    "programming/Impala SQL Manual/Impala SQL 실전 예제 모음.md",
-    "programming/Impala SQL Manual/Impala SQL 빠른참조.md",
     "programming/Impala SQL Manual",
     "programming/Virtuoso Skill Manual",
     "떡볶이",
@@ -259,7 +256,6 @@
     "daily notes/Daily note list.base",
     "templates",
     "xsection.base",
-    "분석",
     "SiC Planar MOSFET.canvas",
     "무제.canvas"
   ]
